@@ -2,11 +2,18 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: A summary of teaching experience.
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+Guy has significant teaching and module adminstration experience, including pastoral support. Modules on which he has previously taught include:
 
-Organize your courses by years, topics, or universities, however you like!
+    - 'Making History'
+    - 'Approaches to History'
+    - 'Understanding the Modern World'
+    - 'The History of Economic Thought'
+    - 'Economics and Ethics'
+    - 'Revolutions'
+
+He currently supervises 6 MSc students on working on 'Geospatial Data Science and Urban Systems' projects.
