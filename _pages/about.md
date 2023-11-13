@@ -20,4 +20,4 @@ Guy is a Postdoctoral Research Associate in the <a href='https://www.gla.ac.uk/c
 
 His work is interdisciplinary in nature; incorporating geography, economic history, digital humanities, and computer science.
 
-Guy has previously held academic positions at The Alan Turing Institute and The Open University, before joining the University of Glasgow in 2023. He earned his PhD from the University of Exeter in 2020.
+Guy has previously held academic positions at The Alan Turing Institute and The Open University, before joining the University of Glasgow in 2023. He earned his PhD from the University of Exeter in 2020. He is currently a member of the GISRUK National Steering Committee.
