@@ -512,6 +512,37 @@ footer.sticky-bottom {
   text-align: right;
 }
 
+.events a {
+  text-decoration: none;
+}
+.events a:hover .card-title {
+  color: var(--global-theme-color);
+}
+.events .card img {
+  width: 100%;
+}
+.events .card-item {
+  width: auto;
+  margin-bottom: 10px;
+}
+.events .card-item .row {
+  display: flex;
+  align-items: center;
+}
+.events .grid-sizer,
+.events .grid-item {
+  width: 250px;
+  margin-bottom: 10px;
+}
+.events h2.category {
+  color: var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-color);
+  padding-top: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
 .publications {
   margin-top: 2rem;
 }
