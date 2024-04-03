@@ -19,4 +19,4 @@ Thematic elements of his previous teaching include:
 
 4. Skills for successful academic study
 
-Guy currently supervises one PhD student, with another under recruitment. He has previously supervised MSc students on working on 'Geospatial Data Science and Urban Systems' projects.
+Guy currently supervises two PhD students. He has previously supervised MSc students on working on 'Geospatial Data Science and Urban Systems' projects.
