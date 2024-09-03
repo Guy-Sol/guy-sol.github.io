@@ -16,13 +16,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Guy is a Postdoctoral Research Associate in the <a href='https://gdsglasgow.github.io/'>Geospatial Data Science</a> research group at the University of Glasgow. He is currently working on the mathematics of cities, with a particular focus on minority groups. 
+Guy is a Lecturer in 'AI and Digital Humanities' at the <a href='https://www.dhi.ac.uk/'>Digital Humanities Institute</a>, University of Sheffield. 
 
 His work is interdisciplinary in nature; incorporating digital humanities, geography, economic history, and computer science.
 
-Guy has previously held academic positions at The Alan Turing Institute and The Open University, before joining the University of Glasgow in 2023. He earned his PhD from the University of Exeter in 2020. He is currently a member of the GISRUK National Steering Committee.
+Guy has previously held academic positions at the University of Glasgow, The Alan Turing Institute and The Open University, before joining the University of Sheffield in 2024. He earned his PhD from the University of Exeter in 2020. He is currently a member of the GISRUK National Steering Committee.
 
-You can find out more about Guy's research here:
+You can find out more about some of Guy's research here:
 
 <div class="video-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/A__ZJgw4_00?si=--s34pv4zsM3x-dm&amp;start=134" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
