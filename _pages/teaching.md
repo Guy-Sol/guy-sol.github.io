@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-Guy has significant teaching (including lectures, seminars, and tutorials), supervision, pastoral care, and module development experience -- across a range of subject areas.
+Guy has significant teaching (including lectures, seminars, and tutorials), supervision, pastoral care, and module development experience -- across a range of subject areas. He is a Fellow of the Higher Education Academy.
 
 Thematic elements of his previous teaching include:
 
@@ -19,4 +19,4 @@ Thematic elements of his previous teaching include:
 
 4. Skills for successful academic study
 
-Guy currently supervises two PhD students. He has previously supervised MSc students on working on 'Geospatial Data Science and Urban Systems' projects.
+Guy currently supervises one PhD student. He has previously supervised MSc students on working on 'Geospatial Data Science and Urban Systems' and 'Remote Sensing' projects.
