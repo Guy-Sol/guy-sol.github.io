@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /map/
-title: activity map
-description: Selected conferences and workshops at which Guy has presented
+title: 
+description: 
 nav: true
 nav_order: 6
 ---
