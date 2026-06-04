@@ -362,12 +362,12 @@ function buildMarkers(csvText) {
   });
 
   const VEIL_END_MS = 4850; // veil starts fading at 3200ms, fade takes 1650ms
-  const delay = 3500;
+  const delay = 3200;
 
   if (latlngs.length === 1) {
-    setTimeout(() => map.setView(latlngs[0], 8, { animate: true, duration: 2.5 }), delay);
+    setTimeout(() => map.setView(latlngs[0], 8, { animate: true, duration: 3.2 }), delay);
   } else if (latlngs.length > 1) {
-    setTimeout(() => map.fitBounds(L.latLngBounds(latlngs), { padding: [60,60], maxZoom: 10, animate: true, duration: 5 }), delay);
+    setTimeout(() => map.fitBounds(L.latLngBounds(latlngs), { padding: [60,60], maxZoom: 10, animate: true, duration: 3.2 }), delay);
   }
 }
 
