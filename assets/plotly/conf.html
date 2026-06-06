@@ -22,7 +22,7 @@
       --bg:        #1C1C1D;
       --text:      #e2e2e2;
       --text-muted:#828282;
-      --theme:     #0076df;
+      --theme:     #2698BA;
       --theme-dim: rgba(0,118,223,0.18);
       --surface:   #212529;
       --border:    rgba(255,255,255,0.08);
@@ -34,7 +34,7 @@
     --bg:        #1C1C1D;
     --text:      #e2e2e2;
     --text-muted:#828282;
-    --theme:     #0076df;
+    --theme:     #2698BA;
     --theme-dim: rgba(0,118,223,0.18);
     --surface:   #212529;
     --border:    rgba(255,255,255,0.08);
@@ -68,10 +68,10 @@
     transform: translateY(16px);
     animation: rise 0.85s cubic-bezier(0.16,1,0.3,1) 0.35s forwards;
   }
-  #veil-title span { color: #2698BA; font-style: italic; }
+  #veil-title span { color: var(--theme); font-style: italic; }
   #veil-rule {
     width: 0; height: 1px;
-    background: #2698BA;
+    background: var(--theme);
     animation: ruleGrow 0.75s ease-out 1s forwards;
   }
   #veil-sub {
@@ -303,6 +303,7 @@ function isDark() {
 }
 
 // ── Initialise map ────────────────────────────────────────────────
+document.documentElement.dataset.theme = window.parent.document.documentElement.dataset.theme || '';
 const map = L.map('map', { zoomControl: true }).setView([52, 5], 4);
 
 function tileUrl() {
@@ -320,6 +321,8 @@ let tileLayer = L.tileLayer(tileUrl(), TILE_OPTS).addTo(map);
 
 // Swap tiles when dark/light toggle fires
 new MutationObserver(() => {
+  const parentTheme = window.parent.document.documentElement.dataset.theme;
+  document.documentElement.dataset.theme = parentTheme || '';
   map.removeLayer(tileLayer);
   tileLayer = L.tileLayer(tileUrl(), TILE_OPTS).addTo(map);
 }).observe(window.parent.document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
